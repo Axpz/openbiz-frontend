@@ -1,0 +1,65 @@
+# Git 相关
+.git
+.gitignore
+.gitattributes
+
+# 构建产物
+.next/
+dist/
+build/
+out/
+
+# 依赖
+node_modules/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 文档
+*.md
+README*
+
+# 测试相关
+coverage/
+.nyc_output/
+__tests__/
+*.test.*
+*.spec.*
+
+# 其他
+*.bak
+*.backup
+.cache/
+.turbo/
+
+# 开发工具
+.prettierrc
+.eslintrc*
+.editorconfig
+
+# 类型定义（开发时生成）
+next-env.d.ts 
